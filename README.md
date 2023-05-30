@@ -1,2 +1,2 @@
 # OC-Projet-3-Films-de-Plein-Air
-Troisième projet de ma formation Développeuse d'applications PHP/Symfony. Plus d'infos dans le README
+Ce projet, le troisième de ma formation Développeuse d'applications PHP/Symfony, consiste à analyser les besoins d'un client et de proposer une solution technique adaptée. Il m'était demandé également de rédiger le cahier des charges ainsi que de réaliser une maquette du projet en HTML/CSS. N'ayant jamais utilisé Bootstrap j'ai choisi de l'utiliser pour faire cette maquette.
