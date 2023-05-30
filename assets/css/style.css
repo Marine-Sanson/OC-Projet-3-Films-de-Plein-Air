@@ -1,0 +1,125 @@
+body{
+font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header{
+      background-color: #314e93;
+      color: white;
+}
+
+header a {
+      color: #ffc622;
+      text-decoration: none;
+}
+
+.logoHeader{
+      border: 2px solid #314e93;
+      border-radius: 10%;
+}
+
+a:hover{
+      color: white;
+      text-decoration: underline;
+}
+
+h1{
+      font-family: 'Exo 2', sans-serif;
+      margin: 6%;
+      color: #314e93;
+}
+
+h2{
+      font-family: 'Exo 2', sans-serif;
+      margin: 4% auto;
+      color: #314e93;
+}
+
+h3{
+      font-family: 'Exo 2', sans-serif;
+      margin: 2%;
+      color: #314e93;
+}
+
+p:not(.text-center){
+      text-align: justify;
+}
+
+.logoHeader{
+      max-width: 10vw;
+}
+
+figure{
+      margin: auto;
+      text-align: center;
+      height: 100%;
+}
+
+.affiche{
+      width: 70%;
+      margin: 2% auto;
+      height: auto;
+}
+
+.btn{
+      background-color: #314e93;
+      color: #ffc622;
+}
+
+.btn:hover{
+      background-color: #ffc622;
+      color: #314e93;
+}
+
+.bi-arrow-left,
+.bi-arrow-right{
+      color: #314e93;
+}
+
+.card{
+      border: 2px solid #314e93;
+}
+
+textarea{
+      height: 5rem;
+      width: 60vw;
+}
+
+footer{
+      background-color: #314e93;
+      color: #ffc622;
+}
+
+@media(min-width: 0px) and (max-width: 575.99px)
+{
+      body{
+            font-size: 1rem;
+      }
+
+      .bi-list{
+            color: #ffc622;
+      }
+
+      .logoHeader{
+            min-width: 15vw;
+      }
+
+      .demoFilm{
+            width:320px;
+            height:180px;
+      }
+}
+
+@media(min-width: 576px){
+      body{
+            font-size: 1.2rem;
+      }
+
+      .bi-list{
+            display: none;
+      }
+
+      .demoFilm{
+            width:560px;
+            height:315px;
+      }
+}
