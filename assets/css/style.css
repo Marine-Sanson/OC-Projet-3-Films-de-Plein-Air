@@ -89,6 +89,11 @@ footer{
       color: #ffc622;
 }
 
+.fleche{
+      background-color: #314e93;
+      color: #ffc622;
+}
+
 @media(min-width: 0px) and (max-width: 575.99px)
 {
       body{
@@ -107,6 +112,14 @@ footer{
             width:320px;
             height:180px;
       }
+
+      #hamburgerIcon{
+            color: #ffc622;
+      }
+
+      .navbar{
+            color: #ffc622;
+      }
 }
 
 @media(min-width: 576px){
@@ -114,12 +127,13 @@ footer{
             font-size: 1.2rem;
       }
 
-      .bi-list{
-            display: none;
-      }
-
       .demoFilm{
             width:560px;
             height:315px;
+      }
+
+      .active{
+            text-decoration: underline;
+            color: #ffc622;
       }
 }

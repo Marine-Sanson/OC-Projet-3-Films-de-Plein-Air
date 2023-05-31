@@ -19,16 +19,29 @@
 
       <body>
             <header class="row">
-                  <figure class="col col-md-2 text-start m-auto">
+                  <figure class="col-2 text-start m-auto">
                         <a href="./index.html"><img class="logoHeader p-md-2" src="./assets/img/logo.png" alt="logo du festival"></a>
                   </figure>
-                  <nav class="col-8 m-auto text-center d-none d-md-inline mainNav">
-                        <a class="m-4 fs-5 fw-bold" href="./programmation.html">Programmation</a>
-                        <a class="m-4 fs-5 fw-bold" href="./actualites.html">Actualités</a>
-                        <a class="m-4 fs-5 fw-bold" href="./infos.html">Infos pratiques</a>
+                  <nav class="navbar navbar-expand-md col-8 m-auto text-center mainNav">
+                        <button class="navbar-toggler col text-center m-auto d-md-none d-inline hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <i class="bi bi-list"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                              <ul class="container w-100 row m-1">
+                                    <li class="m-4 col">
+                                          <a class="m-4 fs-5 fw-bold" href="./programmation.html">Programmation</a>
+                                    </li>
+                                    <li class="m-4 col">
+                                          <a class="m-4 fs-5 fw-bold" href="./actualites.html">Actualités</a>
+                                    </li>
+                                    <li class="m-4 col">
+                                          <a class="m-4 fs-5 fw-bold" href="./infos.html">Infos pratiques</a>
+                                    </li>
+                              </ul>
+                        </div>
                   </nav>
-                  <div class="col text-center m-auto d-inline d-md-none hamburger"><a class="fs-3" href="#"><i class="bi bi-list"></i></a></div>
-                  <nav class="col col-md-2 text-end text-md-center my-auto">
+                  
+                  <nav class="col-2 text-md-center my-auto">
                         <a class="fs-3 fs-md-5 fw-bold" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook m-2 w-3"></i></a>
                         <a class="fs-3 fs-md-5 fw-bold" href="https://twitter.com/?lang=fr" target="_blank"><i class="bi bi-twitter m-2 w-3"></i></a>
                   </nav>

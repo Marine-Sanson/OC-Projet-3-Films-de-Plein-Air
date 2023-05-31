@@ -19,16 +19,29 @@
 
       <body>
             <header class="row">
-                  <figure class="col col-md-2 text-start m-auto">
+                  <figure class="col-2 text-start m-auto">
                         <a href="./index.html"><img class="logoHeader p-md-2" src="./assets/img/logo.png" alt="logo du festival"></a>
                   </figure>
-                  <nav class="col-8 m-auto text-center d-none d-md-inline mainNav">
-                        <a class="m-4 fs-5 fw-bold" href="./programmation.html">Programmation</a>
-                        <a class="m-4 fs-5 fw-bold" href="./actualites.html">Actualités</a>
-                        <a class="m-4 fs-5 fw-bold" href="./infos.html">Infos pratiques</a>
+                  <nav class="navbar navbar-expand-md col-8 m-auto text-center mainNav">
+                        <button class="navbar-toggler col text-center m-auto d-md-none d-inline hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <i class="bi bi-list"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                              <ul class="container w-100 row m-1">
+                                    <li class="m-4 col">
+                                          <a class="m-4 fs-5 fw-bold" href="./programmation.html">Programmation</a>
+                                    </li>
+                                    <li class="m-4 col">
+                                          <a class="m-4 fs-5 fw-bold" href="./actualites.html">Actualités</a>
+                                    </li>
+                                    <li class="m-4 col">
+                                          <a class="m-4 fs-5 fw-bold" href="./infos.html">Infos pratiques</a>
+                                    </li>
+                              </ul>
+                        </div>
                   </nav>
-                  <div class="col text-center m-auto d-inline d-md-none hamburger"><a class="fs-3" href="#"><i class="bi bi-list"></i></a></div>
-                  <nav class="col col-md-2 text-end text-md-center my-auto">
+                  
+                  <nav class="col-2 text-md-center my-auto">
                         <a class="fs-3 fs-md-5 fw-bold" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook m-2 w-3"></i></a>
                         <a class="fs-3 fs-md-5 fw-bold" href="https://twitter.com/?lang=fr" target="_blank"><i class="bi bi-twitter m-2 w-3"></i></a>
                   </nav>
@@ -39,8 +52,8 @@
                         <h1 class="text-center fw-bold">Bienvenue sur le site du festival <br class="d-none d-md-inline">des Films de Plein Air</h1>
 
                         <figure>
-                              <a href="./index.html"><img src="./assets/img/heroLong.png" alt="image de fond avec du public devant et un écran 
-                                    de cinéma derrière. Par dessus cette image il est écrilt Films de plein Air, parc Monceau du 5 au 8 aout 2023"></a>
+                              <img src="./assets/img/heroLong.png" alt="image de fond avec du public devant et un écran 
+                                    de cinéma derrière. Par dessus cette image il est écrilt Films de plein Air, parc Monceau du 5 au 8 aout 2023">
                         </figure>
                   </section>
 
@@ -57,18 +70,77 @@
                   <section class="pb-5" id="films">
                         <h2 class="text-center fw-bolder">Nos films</h2>
 
-                        <div class="row">
-                              <i class="col-1 bi bi-arrow-left fs-2 m-auto d-none d-md-inline"></i>
-                              <figure class="col-md my-2">
-                                    <img class="affiche" src="./assets/img/Dupontel/9MoisFerme.png" alt="Affiche du film 9 mois ferme">
-                              </figure>
-                              <figure class="col-md my-2">
-                                    <img class="affiche" src="./assets/img/Kassovitz/laHaine.jpg" alt="Affiche du film La Haine">
-                              </figure>
-                              <figure class="col-md my-2">
-                                    <img class="affiche" src="./assets/img/Almodovar/talonsAiguilles.jpg" alt="Affiche du film Talons aiguilles">
-                              </figure>
-                              <i class="col-1 bi bi-arrow-right fs-2 m-auto d-none d-md-inline"></i>
+                        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Loach/carla-s-song.jpg" class="d-block w-25 affiche" alt="Affiche du film Carla's song">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Almodovar/laPielQueHabito.jpg" class="d-block w-25 affiche" alt="Affiche du film La piel que habito">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Kassovitz/metisse.jpg" class="d-block w-25 affiche" alt="Affiche du film Métisse">
+                                          </a>
+                                    </div>                                    
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Dupontel/enfermesDehors.jpg" class="d-block w-25 affiche" alt="Affiche du film Enfermés dehors">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Loach/breadAndRoses.jpg" class="d-block w-25 affiche" alt="Affiche du film Bread and Roses">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Almodovar/talonsAiguilles.jpg" class="d-block w-25 affiche" alt="Affiche du film Talons aiguilles">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Kassovitz/laHaine.jpg" class="d-block w-25 affiche" alt="Affiche du film La Haine">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Dupontel/9MoisFerme.png" class="d-block w-25 affiche" alt="Affiche du film 9 mois ferme">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Loach/ladybird.jpg" class="d-block w-25 affiche" alt="Affiche du film Ladybird">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Almodovar/laMauvaiseEducation.jpg" class="d-block w-25 affiche" alt="Affiche du film La mauvaise éducation">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Kassovitz/lOrdreEtLaMorale.jpg" class="d-block w-25 affiche" alt="Affiche du film L’ordre et la morale">
+                                          </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                          <a class="" href="./carlasSong.html">
+                                                <img src="./assets/img/Dupontel/adieuLesCons.jpg" class="d-block w-25 affiche" alt="Affiche du film Adieu les cons">
+                                          </a>
+                                    </div>
+                              </div>
+                              <button class="carousel-control-prev " type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon fleche" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon fleche" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                              </button>
                         </div>
 
                   </section>
